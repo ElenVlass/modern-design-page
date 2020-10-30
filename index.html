@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Active box</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
         <div class="container header-container">
-            <a href="./index.html">ACTIVE BOX</a>
+            <a class="link" href="./index.html">ACTIVE BOX</a>
            <ul class="list nav-list">
                <li>Features</li>
                <li>Works</li>
@@ -22,76 +25,86 @@
 <main>
     <section class="masthead">
     <div class="container">
-        <h1>Your Favorite One Page Multi Purpose Template</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praese</p>
-<button>Find Out More</button>    
+        <h1 class="masthead-title">Your Favorite One Page Multi Purpose Template</h1>
+    <p class="masthead-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praese</p>
+<button class="masthead-btn">Find Out More</button>    
 
 </div>
 </section>
 <section class="features">
     <div class="container">
-        <h2>Easily Customised</h2>
-        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nu</p>
-        <h2>Responsive REady</h2>
-        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nu</p>
-        <h2>Modern Design</h2>
-        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nu</p>
-        <h2>Clean Code</h2>
-        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nu</p>
-        <h2>Ready to Ship</h2>
-        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nu</p>
-        <h2>Download for Free</h2>
-        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nu</p>
+        <ul class="list features-list">
+            <li><h2 class="features-title">Easily Customised</h2>
+                <p class="features-item">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nu</p></li>
+                <li><h2 class="features-title">Responsive REady</h2>
+                <p class="features-item">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nu</p></li>
+                <li><h2 class="features-title">Modern Design</h2>
+                <p class="features-item">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nu</p></li>
+                <li><h2 class="features-title">Clean Code</h2>
+                <p class="features-item">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nu</p></li>
+                <li><h2 class="features-title">Ready to Ship</h2>
+                <p class="features-item">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nu</p></li>
+                <li><h2 class="features-title">Download for Free</h2>
+                <p class="features-item">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nu</p></li>
+        </ul>
     </div>
 </section>
 <section class="galery">
     <div class="container">
         <ul class="list">
-            <li><img src="./images/Layer1.jpeg" alt=""></li>
-            <li><img src="./images/Layer2.jpeg" alt=""></li>
-            <li><img src="./images/Layer3.jpeg" alt=""></li>
-            <li><img src="./images/Layer4.jpeg" alt=""></li>
-            <li><img src="./images/Layer5.jpeg" alt=""></li>
-            <li><img src="./images/Layer6.jpeg" alt=""></li>
-            <li><img src="./images/Layer7.jpeg" alt=""></li>
-            <li><img src="./images/Layer8.jpeg" alt=""></li>
+            <li><img src="./images/Layer1.jpeg" alt="" width="470" height="350"></li>
+            <li><img src="./images/Layer2.jpeg" alt="" width="483" height="350"></li>
+            <li><img src="./images/Layer3.jpeg" alt="" width="484" height="350"></li>
+            <li><img src="./images/Layer4.jpeg" alt="" width="482" height="350"></li>
+            <li><img src="./images/Layer5.jpeg" alt="" width="470" height="350"></li>
+            <li><img src="./images/Layer6.jpeg" alt="" width="481" height="350"></li>
+            <li><img src="./images/Layer7.jpeg" alt="" width="481" height="350"></li>
+            <li><img src="./images/Layer8.jpeg" alt="" width="481" height="350"></li>
         </ul>
     </div>
 </section>
 <section class="team">
     <div class="container">
-        <ul>
-            <li><img src="./images/Layer9.jpeg" alt=""><h2>Ruth Woods</h2>
-            <h3>Founder, CEO</h3>
-        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimen
-</p></li>
-            <li><img src="./images/Layer10.jpeg" alt=""><h2>Timothy Reed</h2>
-            <h3>Co-Founder, Developer</h3>
-        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimen
-        </p></li>
-            <li><img src="./images/Layer11.jpeg" alt=""><h2>Victoria Valdez</h2>
-            <h3>UI Designer</h3>
-        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimen
-</p></li>
-            <li><img src="./images/Layer12.jpeg" alt=""><h2>Beverly Little</h2>
-            <h3>UI Designer</h3>
-        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimen
-</p></li>
+        <ul class="list">
+            <li><img src="./images/Layer9.jpeg" alt="" width="272" height="270"><h2 class="employee-name">Ruth Woods</h2>
+            <div class="employees">
+                <h3 class="employee-title">Founder, CEO</h3>
+            <p class="employee-item">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimen
+    </p>
+            </div></li>
+            <li><img src="./images/Layer10.jpeg" alt="" width="272" height="270"><h2 class="employee-name">Timothy Reed</h2>
+            <div class="employees">
+                <h3 class="employee-title">Co-Founder, Developer</h3>
+            <p class="employee-item">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimen
+            </p>
+            </div></li>
+            <li><img src="./images/Layer11.jpeg" alt="" width="272" height="270"><h2 class="employee-name">Victoria Valdez</h2>
+            <div class="employees">
+                <h3 class="employee-title">UI Designer</h3>
+            <p class="employee-item">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimen
+    </p>
+            </div></li>
+            <li><img src="./images/Layer12.jpeg" alt="" width="272" height="270"><h2 class="employee-name">Beverly Little</h2>
+            <div class="employees">
+                <h3 class="employee-title">UI Designer</h3>
+            <p class="employee-item">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimen
+    </p>
+            </div></li>
         </ul>
     </div>
 </section>
 <section class="clients">
     <div class="container">
-        <img src="./images/Layer13.jpeg" alt="">
-        <p>“Integer posuere erat a ante venenatis dapibus posuere velit al</p>
-        <p>Susan Sims, Interaction Designer at XYZ</p>
+        <img src="./images/Layer13.jpeg" alt="" width="951" height="503">
+        <p class="review">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</p>
+        <p class="client-name">Susan Sims, Interaction Designer at XYZ</p>
     </div>
 </section>
 <section class="download">
     <div class="container">
-        <h2>Are You Ready to Start? Download Now For Free!</h2>
-    <p>Fusce dapibus, tellus ac cursus commodo</p>
-<button>download here</button>    
+        <h2 class="download-title">Are You Ready to Start? Download Now For Free!</h2>
+    <p class="download-item">Fusce dapibus, tellus ac cursus commodo</p>
+<button class="download-btn">download here</button>    
 </div>
 </section>
 </main>      
@@ -99,15 +112,15 @@
  <footer>
 <section class="footer-tot"></section>
      <div class="container">
-      <div class="location"><h3>location</h3>
+      <div class="location"><h3 class="location-title">location</h3>
 
-         <p>3481 Melrose Place Beverly Hills, CA 90210</p></div>
-     <div class="share"><h3>share</h3></div>
-    <div class="about"><h3>about</h3><p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Do</p></div>    </div>
+         <p class="location-item">3481 Melrose Place Beverly Hills, CA 90210</p></div>
+     <div class="share"><h3 class="location-title">share</h3></div>
+    <div class="about"><h3 class="location-title">about</h3><p class="location-item">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Do</p></div>    </div>
 
      <section class="footer-bottom"></section>
     <div class="container">
-        <p>
+        <p class="copyright">
             Copyright &#169; 2015 ActiveBox. All Rights Reserved
         </p>
     </div>
